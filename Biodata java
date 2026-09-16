@@ -1,0 +1,22 @@
+public class Main {
+    public static void main(String[] args) {
+        // Deklarasi variabel biodata
+        String nama = "M. Syifa' nuril ihsan";
+        String tempatLahir = "Bojonegoro";
+        String tanggalLahir = "06 Agustus 2008";
+        String jenisKelamin = "Laki-laki";
+        String alamat = "Ds. Penganten Kec. Balen Kab. Bojonegoro";
+        String pekerjaan = "Mahasiswa";
+
+        // Menampilkan biodata
+        System.out.println("=================================");
+        System.out.println("          BIODATA DIRI           ");
+        System.out.println("=================================");
+        System.out.println("Nama          : " + nama);
+        System.out.println("TTL           : " + tempatLahir + ", " + tanggalLahir);
+        System.out.println("Jenis Kelamin : " + jenisKelamin);
+        System.out.println("Alamat        : " + alamat);
+        System.out.println("Pekerjaan     : " + pekerjaan);
+        System.out.println("=================================");
+    }
+}
